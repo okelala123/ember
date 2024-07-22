@@ -20,7 +20,8 @@ const nextConfig = {
   },
   experimental: {
     legacyBrowsers: false,
-    swcFileReading: true,
+    swcFileReading: false
+    ,
     appDir: true,
   },
   optimizeFonts: true,
